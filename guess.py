@@ -19,5 +19,5 @@ def guess(x):
 
 #User must input the maximum number for the range of guesses
 maxnum = int(input("Enter the maximum number: "))
-num = int(input("How many attempts do you want: "))
+num = int(input("How many attempts do you want?: "))
 guess(maxnum)
