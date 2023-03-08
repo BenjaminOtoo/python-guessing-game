@@ -11,12 +11,12 @@ def guess(x):
             break
         elif tries < maxtries - 1 and guess > random_number:
             tries += 1
-            print("Guess lower, You have", maxtries - tries, "attempts remaining")
+            print("\nGUESS LOWER\nYou have", maxtries - tries, "attempts remaining\n")
         elif tries < maxtries - 1 and guess < random_number:
             tries += 1
-            print("Guess higher, You have", maxtries - tries, "attempts remaining")        
+            print("\nGUESS HIGHER\nYou have", maxtries - tries, "attempts remaining\n")        
         else:
-            print("GAME OVER, You have no attempts remaining")
+            print("\nGAME OVER, You have no attempts remaining")
             print("The number was", random_number)
             break    
 
