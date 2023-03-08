@@ -10,7 +10,7 @@ def guess(x):
         if guess == random_number:
             print("Congratulations you guessed the number!")
             break
-        elif tries < 4:
+        elif tries < maxtries - 1:
             tries += 1
             print("Sorry try again")
             print("You have", maxtries - tries, "attempts remaining")    
