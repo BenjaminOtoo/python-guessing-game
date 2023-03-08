@@ -12,8 +12,7 @@ def guess(x):
             break
         elif tries < maxtries - 1:
             tries += 1
-            print("Sorry try again")
-            print("You have", maxtries - tries, "attempts remaining")    
+            print("Sorry try again, You have", maxtries - tries, "attempts remaining")    
         else:
             print("GAME OVER, You have no attempts remaining")
             print("The number was", random_number)
